@@ -3,20 +3,20 @@ export const portfolioData = {
   personal: {
     name: "Avishkar Bahirwar",
     title: "3rd year student at IIT Bombay",
-    tagline: "Building digital experiences that matter",
+    tagline: "Building systems that learn, move, and make sense",
     bio: "I’m a passionate robotics and AI/ML enthusiast with hands-on experience in building intelligent systems that interact with the physical world. I love combining perception, planning, and control to solve real-world problems through automation, autonomy, and machine learning.",
     email: "avishkarbahirwar@gmail.com",
     phone: "+91 7249604769",
     location: "Mumbai, India",
     resume: "https://drive.google.com/file/d/1d5gnJdeJMgafLZq6cZLwLDbPHnmvm-EK/view?usp=sharing",
-    avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400"
+    avatar: "https://drive.google.com/file/d/1nngl1Gxx9DyqjEeV_1kujRCE8yOT_cLT/view?usp=sharing"
   },
 
   // Social Links
   social: {
     github: "https://github.com/Avishkar1312",
     linkedin: "https://www.linkedin.com/in/avishkar-bahirwar/",
-    twitter: "https://twitter.com/johndoe",
+    //twitter: "https://twitter.com/johndoe",
     email: "mailto:avishkarbahirwar@gmail.com"
   },
 
@@ -40,10 +40,11 @@ export const portfolioData = {
 
   // Skills
   skills: {
-    "Frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
-    "Backend": ["Node.js", "Python", "Django", "Express.js", "PostgreSQL"],
-    "Cloud & Tools": ["AWS", "Docker", "Kubernetes", "Git", "CI/CD"],
-    "Mobile": ["React Native", "Flutter", "iOS", "Android"]
+    Robotics: ["ROS 2","Gazebo","MoveIt2","RViz2","URDF","LIDAR","ESP32","Microcontroller Programming"],
+    "Machine Learning & Data Science": ["PyTorch","Kalman Filter","Scikit-learn","Sensor Fusion","MFCC","K-Means","Logistic Regression"],
+    "Web & Scripting": ["React","Next.js","Tailwind CSS","Node.js","Django","Playwright","Python"],
+    "Simulation & Design": ["MATLAB","Simulink","Simscape","SolidWorks","Fusion 360","3D Printing","Laser Cutting"],
+    "Tools & DevOps": ["Git","GitHub Actions","Docker","Linux","WSL","tmux"]
   },
 
   // Projects
@@ -51,10 +52,10 @@ export const portfolioData = {
     {
       id: 1,
       title: "6 DOF Robotic Arm",
-      description: "A full-stack e-commerce solution built with Next.js and Stripe integration",
-      longDescription: "Comprehensive e-commerce platform featuring user authentication, product management, shopping cart functionality, and secure payment processing. Built with modern technologies for optimal performance and user experience.",
+      description: "A robotic arm with 6 degrees of freedom made out of 3D printed parts",
+      longDescription: "A robotic arm with 6 degrees of freedom made out of 3D printed parts. The software stack is primarily present in a Docker container setup in Raspberry Pi OS. It consists of a ROS2 pipeline written in Python with some C++ code in the Arduino IDE for controlling the stepper motors.",
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"],
+      tech: ["SolidWorks","Docker","Raspberry Pi 5 OS","Arduino IDE","ROS2 Foxy","RViz2"],
       github: "https://github.com/Avishkar1312/6-DOF-Robotic-Arm",
       //demo: "https://ecommerce-demo.vercel.app",
       featured: true
@@ -97,15 +98,21 @@ export const portfolioData = {
   // Experience (optional)
   experience: [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      period: "2023 - Present",
-      description: "Leading development of scalable web applications and mentoring junior developers."
+      title: "AI & BI Intern",
+      company: "Tribeca Developers",
+      period: "2025 - Present",
+      description: "Building intelligent RAG-based chatbots using Hugging Face and Gemini Flash, developing AI-driven profile scrapers with smart filtering, and delivering insight-rich dashboards using Power BI"
     },
     {
-      title: "Software Engineer",
-      company: "StartupXYZ",
-      period: "2022 - 2023",
+      title: "Institute Cultural Web Nominee",
+      company: "Institute Cultural Council,IIT Bombay",
+      period: "2025 - Present",
+      description: "Developed and maintained multiple client projects using modern web technologies."
+    },
+    {
+      title: "Institute Technical Convenor",
+      company: "Tinkerers' Laboratory, IIT Bombay",
+      period: "2024 - 2025",
       description: "Developed and maintained multiple client projects using modern web technologies."
     }
   ]
